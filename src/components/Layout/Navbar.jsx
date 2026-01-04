@@ -40,7 +40,7 @@ export default function Navbar({ isScrolled }) {
                 {item}
               </a>
             ))}
-            <button className="ml-4 px-6 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-full hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:-translate-y-0.5">
+            <button onClick={() => window.location.href='#kontak'} className="ml-4 px-6 py-2 bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-full hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300 transform hover:-translate-y-0.5">
               Pesan Sekarang
             </button>
           </div>
