@@ -17,7 +17,7 @@ export default function Navbar({ isScrolled }) {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
               <div className="relative bg-white p-2 rounded-xl">
-                <img className='w-16' src="/iconLoundry.png" alt="Logo" />
+                <img className='h-8' src="/iconLoundry.png" alt="Logo" />
                 {/* <Shirt className="w-7 h-7 text-blue-600" /> */}
               </div>
             </div>
