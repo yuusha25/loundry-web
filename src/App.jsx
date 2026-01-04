@@ -21,12 +21,12 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <Navbar isScrolled={isScrolled} />
-      <main>
+      {/* <main> */}
         <Hero />
         <Features />
         <Services />
         <Contact />
-      </main>
+      {/* </main> */}
       <Footer />
       <FloatingButton />
     </div>
